@@ -1,7 +1,6 @@
 class Application
 
   @@items = [Item.new(:name, :price)]
-  #  @@items = [Item.new("Apples",5.23), Item.new("Oranges",2.43)]
 
     def call(env)
       resp = Rack::Response.new
